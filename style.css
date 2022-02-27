@@ -1,3 +1,6 @@
+body {
+  box-sizing: border-box;
+}
 @media only screen and (max-width: 885px) {
   div.logozone div h2 {
     font-weight: 0.7rem;
@@ -213,6 +216,21 @@ span.bold {
   width: 20%;
 }
 
+.corr {
+  width: 30%;
+  margin: 0;
+}
+
+.corr-45 {
+  width: 45%;
+}
+.corr-35 {
+  width: 35%;
+}
+.wid45 {
+  width: 45%;
+  margin: 5px;
+}
 .clearfix {
   clear: both;
 }
