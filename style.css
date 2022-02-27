@@ -1,0 +1,222 @@
+@media only screen and (max-width: 885px) {
+  div.logozone div h2 {
+    font-weight: 0.7rem;
+    line-height: 0.8;
+  }
+
+  div.logozone div p {
+    font-weight: 0.7rem;
+    line-height: 0.8;
+  }
+  a {
+    padding: 2px;
+    margin: 2px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  div.logozone div h2 {
+    font-weight: 0.3rem;
+    line-height: 0.8;
+    margin-bottom: 0;
+  }
+
+  div.logozone div p {
+    margin-top: 10px;
+    font-weight: 0.3rem;
+    line-height: 0.8;
+  }
+  .logozone img {
+    display: none !important;
+  }
+  .logozone:first-child {
+    justify-content: center;
+  }
+  .smalldevices {
+    display: block !important;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  a {
+    padding: 5px;
+    margin: 5px;
+  }
+}
+
+.smalldevices {
+  display: none;
+}
+
+.navigationbar {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  height: auto;
+}
+
+.navigationbar .logozone {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-shrink: 0;
+  height: 100px;
+  width: 75vw;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.navigationbar .logozone img {
+  margin-top: 10px;
+  display: block;
+  margin-left: 25px;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+
+.navigationbar .logozone h2 {
+  font-size: 20px;
+}
+.navigationbar .logozone p {
+  font-size: 14px;
+}
+
+.navigationbar #menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#menu a {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  background: #cd163f;
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#menu a:hover {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  background: orangered;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: white;
+}
+
+.active {
+  background-color: orangered;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+#container {
+  position: relative;
+  width: 80vw;
+  min-height: 80vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 13px rgb(39, 41, 39) solid;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  background-image: url("recognition.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.pulse {
+  display: block;
+  /* border-radius: 50%; */
+  background: #ee5a15;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(255, 251, 12, 0.4);
+  animation: pulse 2s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 orange;
+    box-shadow: 0 0 0 0 orange;
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(20, 19, 16, 0);
+    box-shadow: 0 0 0 20px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+.marquee-container {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.marquee-code {
+  height: auto;
+  font-weight: bold;
+  background-color: transparent;
+  font-size: 14px;
+  color: #000000;
+}
+
+article {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.imgleft {
+  margin: 20px;
+  float: left;
+}
+
+.imgright {
+  margin: 0 15px;
+  float: right;
+  width: 20%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#footer {
+  min-height: 50px;
+}
