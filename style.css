@@ -15,6 +15,13 @@ body {
     padding: 2px;
     margin: 2px;
   }
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 670px) {
@@ -43,6 +50,13 @@ body {
   a {
     padding: 5px;
     margin: 5px;
+  }
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects img {
+    width: 100%;
   }
 }
 
@@ -237,4 +251,68 @@ span.bold {
 
 #footer {
   min-height: 50px;
+}
+
+span.small {
+  font-size: small;
+}
+
+#imagezone {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-li div:last-child {
+  width: 60%;
+}
+
+.cpanels {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.centerimg {
+  width: 100%;
+}
+
+.centerimg img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.projects img {
+  margin: 10px 10px;
+  width: 45%;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+i {
+  display: inline-block;
+  color: green;
+  margin-right: 10px;
+}
+
+.incfont {
+  font-size: 18px;
+  text-align: center;
+  word-spacing: 0.4rem;
+  color: orangered;
 }
