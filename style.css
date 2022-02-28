@@ -31,6 +31,10 @@ body {
     margin-bottom: 0;
   }
 
+  .services img {
+    width: 95%;
+  }
+
   div.logozone div p {
     margin-top: 10px;
     font-weight: 0.3rem;
@@ -313,6 +317,11 @@ i {
 .incfont {
   font-size: 18px;
   text-align: center;
-  word-spacing: 0.4rem;
   color: orangered;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
