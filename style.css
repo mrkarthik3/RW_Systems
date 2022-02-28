@@ -14,7 +14,7 @@ body {
     font-weight: 0.7rem;
     line-height: 0.8;
   }
-  a {
+  #menu a {
     padding: 2px;
     margin: 2px;
   }
@@ -24,6 +24,9 @@ body {
   }
   .projects img {
     width: 100%;
+  }
+  img.imgleft {
+    margin: 10px;
   }
 }
 
@@ -60,7 +63,7 @@ body {
     font-weight: bold;
     font-size: 12px;
   }
-  a {
+  #menu a {
     padding: 5px;
     margin: 5px;
   }
@@ -68,6 +71,9 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+  }
+  img.imgleft {
+    margin: 10px;
   }
 }
 
@@ -375,5 +381,16 @@ address {
 p,
 ul,
 li {
+  margin: 10px;
+}
+
+.give_margin {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin: 10px; */
+}
+
+.give_margin img {
   margin: 10px;
 }
