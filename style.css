@@ -273,7 +273,8 @@ body {
   color: #000000;
 }
 
-article {
+article,
+p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
