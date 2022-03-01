@@ -14,6 +14,10 @@ body {
     font-weight: 0.7rem;
     line-height: 0.8;
   }
+
+  div.logozone {
+    margin-bottom: 0;
+  }
   #menu a {
     padding: 2px;
     margin: 2px;
@@ -28,9 +32,20 @@ body {
   img.imgleft {
     margin: 10px;
   }
+  div.addresses {
+    text-align: left;
+    /* justify-content: flex-start; */
+  }
 }
 
 @media only screen and (max-width: 670px) {
+  .clearjustify {
+    text-align: left;
+  }
+  div.addresses {
+    text-align: left;
+    /* justify-content: flex-start; */
+  }
   #container {
     width: 95vw;
   }
@@ -50,13 +65,24 @@ body {
   div.logozone div p {
     margin-top: 10px;
     font-weight: 0.3rem;
-    line-height: 0.8;
+    line-height: 0.9;
   }
+
   .logozone img {
     display: none !important;
   }
   .logozone:first-child {
     justify-content: center;
+  }
+
+  .navigationbar div.logozone {
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  div.logozone div {
+    /* background-color: #cd163f; */
+    /* height: fit-content; */
   }
   .smalldevices {
     display: block !important;
@@ -74,6 +100,21 @@ body {
   }
   img.imgleft {
     margin: 10px;
+  }
+  div.needtopmargin {
+    margin-top: 40px;
+  }
+
+  nav.navigationbar {
+    font-size: smaller;
+  }
+
+  ul {
+    padding-left: 10px;
+  }
+
+  article {
+    text-align: left;
   }
 }
 
@@ -370,12 +411,16 @@ div .contact ul li#red {
 .addresses {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
 }
 
 address {
   margin: 10px;
+  width: 420px;
+  height: 120px;
+  padding: 5px;
+  word-wrap: break-word;
 }
 
 p,
@@ -388,9 +433,28 @@ li {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* margin: 10px; */
 }
 
 .give_margin img {
   margin: 10px;
+}
+
+.needtopmargin {
+  padding: 20px;
+  margin: 20px;
+}
+
+.imgcenter img {
+  display: block;
+}
+
+.imgcenter {
+  display: flex;
+  justify-content: center;
+}
+
+.contactform {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
 }
